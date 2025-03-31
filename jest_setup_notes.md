@@ -15,12 +15,14 @@
 }
 ```
 
-Create the following directory stucture (exchanging 'myProject' for something relevant your project):
+5. Create the following directory stucture (exchanging 'myProject' for something relevant your project):
 
+```
 > myProject
   + myProject.js
   > __tests__
     + myProject.test.js
+```
 
-5. Write your functions definitions in 'myProject.js' and your tests in the 'myProject.test.js'
-6. Run the tests with `npm test` at the top level of your project
+6. Write your functions definitions in 'myProject.js' and your tests in the 'myProject.test.js'
+7. Run the tests with `npm test` at the top level of your project
