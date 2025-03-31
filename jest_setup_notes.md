@@ -3,7 +3,7 @@
 1. Create a directory for your project
 2. In the terminal `cd` into your project directory
 3. Run `npm install --save-dev jest` in the terminal
-4. Update the package.json file to contain `scripts` and `type`:
+4. Open the newly created package.json file and update it to contain `scripts` and `type`:
 
 ```js
 {
@@ -15,8 +15,12 @@
 }
 ```
 
-5. In the top level of your project directory, create a file called `functions.js` (or name relevant to your project's functionality)
+Create the following directory stucture (exchanging 'myProject' for something relevant your project):
 
-5. In the top level of your project directory, create a directory called `__tests__`. Inside it create a file called `functions.test.js` (or name matching your functions file)
+> myProject
+  + myProject.js
+  > __tests__
+    + myProject.test.js
 
-6. Run tests with `npm test`
+5. Write your functions definitions in 'myProject.js' and your tests in the 'myProject.test.js'
+6. Run the tests with `npm test` at the top level of your project
