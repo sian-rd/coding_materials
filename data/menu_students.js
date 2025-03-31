@@ -54,16 +54,15 @@ const menu = {
         type: 'water',
         price: 0
     }
-}   
-    
+}       
 
-const person1 = {
+const student1 = {
     firstName: 'jim',
     basket: ['a3', 'a8', 'a4', 'a10'],
     wallet: 3
 }
 
-const person2 = {
+const student2 = {
     firstName: 'rita',
     basket: ['a1', 'a7', 'a11'],
     wallet: 5
