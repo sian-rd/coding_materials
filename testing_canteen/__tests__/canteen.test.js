@@ -48,7 +48,7 @@ describe('canteen', () => {
             },
             a9: {
                 category: 'drink',
-                water: 'squash',
+                type: 'squash',
                 price: 0.25
             },   
             a10: {
@@ -82,14 +82,14 @@ describe('canteen', () => {
             const itemTypes = ['sausages', 'water', 'soup', 'quiche', 'pizza', 'lemonade', 'salad', 'chips', 'squash', 'tea', 'water']
             const result = getTypes(menu)
 
-            expect(result).toStrictEquals(itemTypes)
+            expect(result).toStrictEqual(itemTypes)
         })
         
         it('should return an array of all the items with the category "drink"', () => {
             const drinks = [menu.a2, menu.a6, menu.a9, menu.a10, menu.a11]
             const result = getDrinks(menu)
 
-            expect(result).toStrictEquals(drinks)
+            expect(result).toStrictEqual(drinks)
         })
 
         it('should return an array of all the items with the category "food"', () => {
@@ -100,7 +100,7 @@ describe('canteen', () => {
             const numberOfDrinks = 5
             const result = numberOfDrinks(menu)
 
-            expect(result).toStrictEquals(numberOfDrinks)
+            expect(result).toStrictEqual(numberOfDrinks)
         })
 
         it('should return the nummber of items with the category "food"', () => {
