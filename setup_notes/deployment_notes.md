@@ -30,3 +30,8 @@ export default defineConfig({
 6. Go onto your GitHub account in the browser and click 'Settings' and 'Pages' (left menu). You should see a message under the heading 'Pages' that says 'Your GitHub Pages site is currently being built from the gh-pages branch'. When this is complete your project will be live at:
 https://USERNAME.github.io/REPO-NAME/
 (swap in your username and repo name)
+
+
+## Making a Change and Publishing the Update
+
+If you make a change to your project and want to deploy the latest version, push all your changes to GitHub and run `npm run deploy` again. (It can take some minutes for the update to appear on the page.)
